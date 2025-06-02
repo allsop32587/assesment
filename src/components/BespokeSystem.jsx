@@ -22,7 +22,7 @@ const BespokeSystem = () => {
 
           <a
             href='/inquiry'
-            className='flex items-center border border-white text-white font-mont font-normal uppercase px-8 py-5 gap-3'
+            className='flex items-center border border-white text-white font-mont font-normal uppercase px-8 py-5 gap-3 transition-all duration-200 ease-in-out hover:bg-white hover:text-black active:scale-95'
           >
             <span>Drop your inquiry</span>
             <img src='/drop_an_inquiry.svg' alt='Inquiry Icon' className='w-3 h-3' />

@@ -13,7 +13,7 @@ const Materials = () => {
 
         <a
           href='/projects'
-          className='flex-shrink-0 flex items-center border border-black text-black font-mont font-normal uppercase px-[33px] py-[23px] w-[261px] h-[71px] gap-[10px]'
+          className='flex-shrink-0 flex items-center border border-black text-black font-mont font-normal uppercase px-[33px] py-[23px] w-[210px] h-[71px] gap-3 transition-all duration-200 ease-in-out hover:bg-black hover:text-white active:scale-95'
         >
           <span>View Projects</span>
           <img src='/view_projects.svg' alt='Arrow Icon' className='w-3 h-3' />

@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <header className='absolute top-0 left-0 w-full p-8 flex items-center justify-between z-20'>
+    <header className='absolute top-0 left-0 w-full p-8 flex items-center justify-between z-20 animate-fadeInText'>
       {/* <div className='text-white text-xl font-semibold'>Rayfitout</div> */}
       <img src='/reyfitout.svg' />
 

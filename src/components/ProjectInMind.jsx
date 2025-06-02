@@ -5,7 +5,7 @@ const ProjectInMind = () => {
         <div className='uppercase text-[40px] font-medium'>HAVE A PROJECT IN MIND ?</div>
         <a
           href='/inquiry'
-          className='flex-shrink-0 flex justify-center items-center border border-black text-black font-mont font-normal uppercase pl-[33px] pr-[24px] py-[23px] gap-3'
+          className='flex-shrink-0 flex justify-center items-center border border-black text-black font-mont font-normal uppercase pl-[33px] pr-[24px] py-[23px] gap-3 transition-all duration-200 ease-in-out hover:bg-black hover:text-white active:scale-95'
         >
           <span>drop an inquiry</span>
           <img src='/view_projects.svg' alt='Arrow Icon' className='w-3 h-3' />
